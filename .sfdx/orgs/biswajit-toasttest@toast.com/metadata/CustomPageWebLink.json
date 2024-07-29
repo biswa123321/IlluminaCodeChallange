@@ -1,0 +1,19 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005dL000004mwdhQAA",
+      "createdByName": "Biswajit Barman",
+      "createdDate": "2024-07-15T14:52:33.000Z",
+      "fileName": "weblinks/SBQQ__ConfigureQuoteQuickly.weblink",
+      "fullName": "SBQQ__ConfigureQuoteQuickly",
+      "id": "00bdL000001BZ7YQAW",
+      "lastModifiedById": "005dL000004mwdhQAA",
+      "lastModifiedByName": "Biswajit Barman",
+      "lastModifiedDate": "2024-07-15T14:52:33.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "SBQQ",
+      "type": "CustomPageWebLink"
+    }
+  ]
+}

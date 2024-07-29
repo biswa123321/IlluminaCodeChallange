@@ -1,0 +1,98 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005dL000004mwdhQAA",
+      "createdByName": "Biswajit Barman",
+      "createdDate": "2024-07-15T14:50:32.000Z",
+      "fileName": "lwc/SBQQ__quoteTermEditorPage",
+      "fullName": "SBQQ__quoteTermEditorPage",
+      "id": "0RbdL000000eeTNSAY",
+      "lastModifiedById": "005dL000004mwdhQAA",
+      "lastModifiedByName": "Biswajit Barman",
+      "lastModifiedDate": "2024-07-15T14:50:32.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "SBQQ",
+      "type": "LightningComponentBundle"
+    },
+    {
+      "createdById": "005dL000004mwdhQAA",
+      "createdByName": "Biswajit Barman",
+      "createdDate": "2024-07-27T09:20:17.000Z",
+      "fileName": "lwc/uSCountryInformation",
+      "fullName": "uSCountryInformation",
+      "id": "0RbdL000000kiCXSAY",
+      "lastModifiedById": "005dL000004mwdhQAA",
+      "lastModifiedByName": "Biswajit Barman",
+      "lastModifiedDate": "2024-07-27T09:31:41.000Z",
+      "manageableState": "unmanaged",
+      "type": "LightningComponentBundle"
+    },
+    {
+      "createdById": "005dL000004mwdhQAA",
+      "createdByName": "Biswajit Barman",
+      "createdDate": "2024-07-27T06:59:18.000Z",
+      "fileName": "lwc/zipCodeContainer",
+      "fullName": "zipCodeContainer",
+      "id": "0RbdL000000kfmXSAQ",
+      "lastModifiedById": "005dL000004mwdhQAA",
+      "lastModifiedByName": "Biswajit Barman",
+      "lastModifiedDate": "2024-07-28T09:12:05.000Z",
+      "manageableState": "unmanaged",
+      "type": "LightningComponentBundle"
+    },
+    {
+      "createdById": "005dL000004mwdhQAA",
+      "createdByName": "Biswajit Barman",
+      "createdDate": "2024-07-27T09:48:54.000Z",
+      "fileName": "lwc/usCountryInfo",
+      "fullName": "usCountryInfo",
+      "id": "0RbdL000000kidxSAA",
+      "lastModifiedById": "005dL000004mwdhQAA",
+      "lastModifiedByName": "Biswajit Barman",
+      "lastModifiedDate": "2024-07-28T12:49:44.000Z",
+      "manageableState": "unmanaged",
+      "type": "LightningComponentBundle"
+    },
+    {
+      "createdById": "005dL000004mwdhQAA",
+      "createdByName": "Biswajit Barman",
+      "createdDate": "2024-07-15T16:38:00.000Z",
+      "fileName": "lwc/lWCRecoordViewForm",
+      "fullName": "lWCRecoordViewForm",
+      "id": "0RbdL000000ehe9SAA",
+      "lastModifiedById": "005dL000004mwdhQAA",
+      "lastModifiedByName": "Biswajit Barman",
+      "lastModifiedDate": "2024-07-15T16:55:48.000Z",
+      "manageableState": "unmanaged",
+      "type": "LightningComponentBundle"
+    },
+    {
+      "createdById": "005dL000004mwdhQAA",
+      "createdByName": "Biswajit Barman",
+      "createdDate": "2024-07-12T15:12:56.000Z",
+      "fileName": "lwc/toast_AccountHealth",
+      "fullName": "toast_AccountHealth",
+      "id": "0RbdL000000dIebSAE",
+      "lastModifiedById": "005dL000004mwdhQAA",
+      "lastModifiedByName": "Biswajit Barman",
+      "lastModifiedDate": "2024-07-13T13:16:24.000Z",
+      "manageableState": "unmanaged",
+      "type": "LightningComponentBundle"
+    },
+    {
+      "createdById": "005dL000004mwdhQAA",
+      "createdByName": "Biswajit Barman",
+      "createdDate": "2024-07-15T14:50:32.000Z",
+      "fileName": "lwc/SBQQ__themePage",
+      "fullName": "SBQQ__themePage",
+      "id": "0RbdL000000eeTOSAY",
+      "lastModifiedById": "005dL000004mwdhQAA",
+      "lastModifiedByName": "Biswajit Barman",
+      "lastModifiedDate": "2024-07-15T14:50:32.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "SBQQ",
+      "type": "LightningComponentBundle"
+    }
+  ]
+}
