@@ -1,0 +1,31 @@
+<template>
+    <lightning-card  title="Zip Code Container" style="background-color: white;">
+        
+        <div class="slds-m-top_small slds-m-bottom_medium">
+            <div class="slds-p-around_medium lgc-bg">
+                <lightning-input type="text" label="Country Code" value={countryCode} onchange={setcountryCode} required></lightning-input><br/>
+                <lightning-input
+                        name="zipCode"
+                        label="Zip Code"
+                        value={zipCode}
+                        onchange={setZipCode}
+                        placeholder="Enter Zip Code"
+                        required
+                        type="search">
+                </lightning-input>
+            </div>
+            <template if:true={errorMsg}>
+                <span class="slds-text-color_destructive slds-p-around_medium lgc-bg">
+                    Error: {errorMsg}
+                </span>
+            </template>
+            <div><br/>
+                <lightning-button variant="brand" label="Find Country Information" title="Find Country" onclick={FindCountry} class="slds-m-left_x-small"></lightning-button>
+            </div>
+        </div>
+
+        <template if:true={showCountrySection}>
+            <c-us-country-info country-info={responseCountryInfo} us-country={isUSCountry} ></c-us-country-info>
+        </template>
+    </lightning-card>
+</template>

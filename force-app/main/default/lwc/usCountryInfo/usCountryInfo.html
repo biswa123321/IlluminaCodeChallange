@@ -1,0 +1,28 @@
+<template>
+    <div class="slds-p-around_medium lgc-bg">       
+        <h2 if:true={usCountry} class="slds-text-heading_small">US country information</h2>   
+        <h2 if:false={usCountry} class="slds-text-heading_small">Non US country information</h2>
+        <span if:false={usCountry} class=""><i>Note: the non US country saved from backend in custom object Country__c</i></span>
+        
+        <ul>
+        <template if:true={countryInfo}>
+            <div class="slds-text-body_regular">
+                <br/><span>Country: {countryInfo.country}</span><br/>
+                <span>Country Abbreviation: {countryInfo.countryabbreviation}</span><br/>
+                <span>Post Code: {countryInfo.post_code}</span><br/><br/>
+                
+                <template for:each={countryInfo.places} for:item="place" for:index="index">
+                    <li key={index.Id}>
+                        <span>Place Name: {place.placename}</span><br/>
+                        <span>State: {place.state}</span><br/>
+                        <span>State Abbreviation: {place.stateabbreviation}</span><br/>
+                        <span>Longitude: {place.longitude}</span><br/>
+                        <span>Latitude: {place.latitude}</span>   <br/>  <br/>          
+                    </li>                   
+                </template>
+
+            </div>           
+        </template> 
+    </ul>       
+    </div>
+</template>
